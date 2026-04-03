@@ -28,8 +28,10 @@ baseurl: "/hatspies.github.io/" # the subpath of your site, e.g. /blog
 url: "https://hatspies.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  hatspies
+
+# Collections
 collections:
-authors:
+  authors:
 
 # Build settings
 theme: minima
