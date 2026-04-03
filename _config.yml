@@ -32,6 +32,7 @@ github_username:  hatspies
 # Collections
 collections:
   authors:
+    output: true
 
 # Build settings
 theme: minima
