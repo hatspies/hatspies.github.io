@@ -5,8 +5,22 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
+    
   <body>
-    {% include navigation.html %}
-    {{ content }}
+
+    <header>
+      {% include header.html %}
+    </header>  
+
+    <main>
+      {% include navigation.html %}
+      {{ content }}
+    </main>
+
+    <footer>
+      {% include footer.html %}
+    </footer>
   </body>
+
+  
 </html>
