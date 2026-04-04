@@ -1,0 +1,27 @@
+/* Lavender theme used for buttons etc */
+.colourstyle-1 {
+  background-color: url($colourstyle-1);
+  border-color: url($colourstyle-1-border-highlight) url($colourstyle-1-border-highlight) url($colourstyle-1-border-shadow) url($colourstyle-1-border-shadow);
+
+  &:hover {
+    background-color: url($colourstyle-1-emphasise);
+  }
+
+  &:active {
+    border-color: url($colourstyle-1-border-shadow) url($colourstyle-1-border-shadow) url($colourstyle-1-border-highlight) url($colourstyle-1-border-highlight);
+  }
+}
+
+/* Grey MSDOS theme used for displaybox*/
+.colourstyle-1 {
+  background-color: url($colourstyle-2);
+  border-color: url($colourstyle-1-border-highlight) url($colourstyle-2-border-highlight) url($colourstyle-2-border-shadow) url($colourstyle-2-border-shadow);
+
+  &:hover {
+    background-color: url($colourstyle-2-emphasise);
+  }
+
+  &:active {
+    border-color: url($colourstyle-2-border-shadow) url($colourstyle-2-border-shadow) url($colourstyle-2-border-highlight) url($colourstyle-2-border-highlight);
+  }
+}
