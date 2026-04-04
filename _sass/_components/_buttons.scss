@@ -4,7 +4,8 @@
   border-radius: 2vh;
   box-shadow: -4px 4px 3px;
   cursor: pointer;
-  nav button:active
+
+  &:active
   {
     border-width: 2px 3px 1px 1px;
     box-shadow: 0 0 0;
