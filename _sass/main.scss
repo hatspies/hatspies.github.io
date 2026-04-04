@@ -1,3 +1,9 @@
+:root
+  {
+    --colour1: #9E9EDE;
+    --colour2: #DFDBE5;
+  }
+
 * {
   margin: 0;
   padding: 0;
@@ -28,3 +34,88 @@ body
 .current {
   color: green;
 }
+
+.dispbox 
+  {
+  background-color: lightgrey;
+  border-left: 5px solid grey;
+  border-bottom: 3px solid grey;
+  border-right: 1px solid snow;
+  border-top: 1px solid snow;
+  box-shadow: -4px 4px 3px;
+  }   
+
+.colour1
+  {
+  background-color: var(--colour1);
+  }
+  
+.colour2
+  {
+  background-color: var(--colour2);  
+  }
+  
+h3 {
+  text-align: center;
+  background: rgba(0, 0, 255, .25);
+}
+  
+h2, h3, p {
+  padding: 1rem;
+  color: black;
+  /*background: rgba(0, 0, 255, .25);*/
+  }
+  
+button p
+  {
+  color: black;
+  font-size: 2vh;
+  font-weight: bold;
+  }
+
+.width
+  {
+  width: auto;
+  }
+
+.centre
+  {
+  display: flex;
+  justify-content: about;
+  align-items: center;
+  }
+  
+.centredisplay
+  {
+  justify-content: center;
+  }
+  
+.centreline
+  {
+  margin: 0 auto; 
+  }
+    
+.borderstyle1
+  {
+  /*border-width: 0;*/
+  border-color: #3366cc;    
+  }
+  
+.blend
+  {
+  opacity:0.75;  
+  }
+  
+.container
+  {
+  height: 100%;
+  width: 100%;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 480px)
+  {
+  .sidebar 
+    {
+    width: 100%;
+    }
+  }
