@@ -1,12 +1,16 @@
 main
-  {
+{
   background-color: ghostwhite;
   height: 67vh;
   display: block;
   color: dimgrey;
   /*padding: 20px, 0px;*/
   background-color: red;
+
+  span {
+    @extend %displaybox
   }
+}
   
 .maincontainer
 {
