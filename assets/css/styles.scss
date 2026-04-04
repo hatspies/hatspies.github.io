@@ -5,16 +5,16 @@
 @import "main";
 
 /* Components */
-@import "buttons";
-@import "displaybox";
+@import "components/buttons";
+@import "components/displaybox";
 
 /* Helpers */
-@import "colours";
-@import "colourstyles";
+@import "helpers/colours";
+@import "helpers/colourstyles";
 
 /* Layouts */
-@import "footer";
-@import "header";
-@import "main-area";
-@import "navigation";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/main-area";
+@import "layouts/navigation";
 
