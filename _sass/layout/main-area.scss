@@ -1,11 +1,10 @@
 main
 {
-  background-color: ghostwhite;
+  background-color: url($ghostwhite);
+  color: url($dimgrey);
   height: 67vh;
   display: block;
-  color: dimgrey;
   /*padding: 20px, 0px;*/
-  background-color: red;
 
   span {
     @extend %displaybox
