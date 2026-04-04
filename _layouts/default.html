@@ -13,8 +13,18 @@
     </header>  
 
     <main>
-      {% include navigation.html %}
-      {{ content }}
+      <!--Sidebar-->
+      <span id="sidebarbox" class="main sidebar centredisplay">
+        <!--Navbar-->
+        <h3 class="centreline centre">My Pages</h3>
+        {% include navigation.html %}
+      </span>
+        
+      <!--Main Content Area-->
+      <span id="contentbox" class="main content">
+        <h2>Hiya, welcome to my page!</h2>
+        {{ content }}            
+      </span>
     </main>
 
     <footer>

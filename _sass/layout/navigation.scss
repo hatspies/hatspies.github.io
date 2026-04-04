@@ -1,0 +1,14 @@
+nav
+{
+  display: flex;
+  color: url($dimgrey);
+  flex-wrap: wrap;
+
+  button {
+    height: 4vh;
+    width: 150px;
+    margin: 0em auto;
+    @extend %buttonstyle-1;
+    @extend .colourstyle-1;
+  }
+} 
