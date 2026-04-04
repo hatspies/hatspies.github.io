@@ -1,7 +1,20 @@
 ---
 ---
+
+/* Main */
 @import "main";
+
+/* Components */
+@import "buttons";
+@import "displaybox";
+
+/* Helpers */
+@import "colours";
+@import "colourstyles";
+
+/* Layouts */
+@import "footer";
 @import "header";
 @import "main-area";
 @import "navigation";
-@import "footer";
+

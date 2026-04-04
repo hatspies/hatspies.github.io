@@ -1,9 +1,7 @@
 .dispbox 
   {
-  background-color: lightgrey;
-  border-left: 5px solid grey;
-  border-bottom: 3px solid grey;
-  border-right: 1px solid snow;
-  border-top: 1px solid snow;
-  box-shadow: -4px 4px 3px;
-  }   
+    borderstyle: solid;
+    border-width: 1px 1px 3px 5px;
+    box-shadow: -4px 4px 3px;
+    @extend .colourstyle-1
+  }    
