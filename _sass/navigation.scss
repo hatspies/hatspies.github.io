@@ -1,0 +1,34 @@
+nav
+  {
+  display: flex;
+  color: dimgrey;
+  flex-wrap: wrap;
+  } 
+  
+nav button
+  {
+  height: 4vh;
+  width: 150px;
+  color: dimgrey;
+  margin: 0em auto;
+  border-width: 1px 1px 2px 3px;
+  border-color: lavender lavender darkslateblue darkslateblue;
+  border-radius: 2vh;
+  box-shadow: -4px 4px 3px;
+  cursor: pointer;
+  }
+  
+nav button:hover
+  {
+  background-color: #b1b1e4;  
+  }
+
+nav button:active
+  {
+
+  border-width: 2px 3px 1px 1px;
+  border-color: darkslateblue darkslateblue lavender lavender;
+  box-shadow: 0 0 0;
+  cursor: pointer;
+  }
+  

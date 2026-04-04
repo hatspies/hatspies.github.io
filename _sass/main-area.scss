@@ -1,0 +1,44 @@
+main
+  {
+  background-color: ghostwhite;
+  height: 67vh;
+  display: block;
+  color: dimgrey;
+  /*padding: 20px, 0px;*/
+  background-color: red;
+  }
+  
+.maincontainer
+{
+height: auto;
+padding: 20px, 30px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: blue;
+border: 3px solid green;
+
+}
+
+/*.main
+  {
+  min height: 60vh;
+  }*/
+  
+/*Sidebar Rules*/
+
+.sidebar
+  {
+    max-width: 200px;
+  /*flex-basis: 250px*/
+  /*width: 13vw;*/
+  }
+
+.content
+  {
+  min-width: 460px;
+  /*min-width: 400px;*/
+  flex: 1 1;
+  /*width: 48vw;*/
+  }
