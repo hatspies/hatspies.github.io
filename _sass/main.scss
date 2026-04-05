@@ -1,3 +1,37 @@
+%centred
+  {
+  margin: 0 auto; 
+  } 
+
+%blend {
+  opacity:0.75;  
+}
+  
+%container {
+  height: 100%;
+  width: 100%;
+}
+
+%centretext {
+  text-align: center;
+}
+
+%floatleft {
+  float: left;
+}
+
+%floatright {
+  float: right;
+}
+
+%autowidth {
+  width: auto;
+}
+
+%blacktext {
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +58,11 @@ body
   display: block;
   }
 
+.bordercolour-1
+  {
+  border-color: #3366cc;    
+  }
+  
 .current {
   color: green;
 } 
@@ -39,54 +78,19 @@ body
   }
   
 h3 {
-  text-align: center;
+  @extend %centretext;
   background: rgba(0, 0, 255, .25);
 }
   
 h2, h3, p {
   padding: 1rem;
-  color: black;
+  @extend %blacktext;
   /*background: rgba(0, 0, 255, .25);*/
   }
   
-button p
-  {
-  color: black;
-  font-size: 2vh;
-  font-weight: bold;
-  }
-
-.width
-  {
-  width: auto;
-  }
-  
-%centred
-  {
-  margin: 0 auto; 
-  }
-    
-.borderstyle1
-  {
-  /*border-width: 0;*/
-  border-color: #3366cc;    
-  }
-  
-.blend
-  {
-  opacity:0.75;  
-  }
-  
-.container
-  {
-  height: 100%;
-  width: 100%;
-  }
-
-  @media only screen and (min-width: 320px) and (max-width: 480px)
-  {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .sidebar 
-    {
+  {
     width: 100%;
-    }
   }
+}
