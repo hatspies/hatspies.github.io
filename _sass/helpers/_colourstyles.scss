@@ -2,7 +2,11 @@
 %colourtheme-1 {
   background-color: url($colourstyle-1);
   border-color: url($colourstyle-1-border-highlight) url($colourstyle-1-border-highlight) url($colourstyle-1-border-shadow) url($colourstyle-1-border-shadow);
+}
 
+%colourtheme-1-active {  
+  @extend %colourtheme-1;
+  
   &:hover {
     background-color: url($colourstyle-1-emphasise);
   }
