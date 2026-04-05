@@ -1,7 +1,7 @@
-.displaybox 
+%displaybox 
   {
     borderstyle: solid;
     border-width: 1px 1px 3px 5px;
     box-shadow: -4px 4px 3px;
-    @extend .colourstyle-1
+    @extend %colourtheme-2
   }    

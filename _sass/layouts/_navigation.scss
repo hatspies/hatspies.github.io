@@ -9,6 +9,6 @@ nav
     width: 150px;
     margin: 0em auto;
     @extend %buttonstyle-1;
-    @extend .colourstyle-1;
+    @extend %colourtheme-1-active;
   }
 } 
