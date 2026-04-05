@@ -1,10 +1,24 @@
 footer
   {
-  /*position: absolute;*/
-  bottom: 0;
-  height: 10vh;
-  color: black;
-  border-width: 5px 0 0;
-  /*background-color: lightgray;*/
-  max-width: 125vh;
+    //position: absolute;
+    bottom: 0;
+    height: 10vh;
+    color: black;
+    border-width: 5px 0 0;
+    //background-color: lightgray;
+    max-width: 125vh;
+    @extend %colourtheme-1
+
+    span {
+      @extend %blend;
+      @extend %container;
+    }
+
+    .copyright {
+      @extend %floatleft;
+    }
+
+    .credits {
+      @extend %floatright;
+    }
   }
