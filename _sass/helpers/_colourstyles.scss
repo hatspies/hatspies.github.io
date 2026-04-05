@@ -1,5 +1,5 @@
-/* Lavender theme used for buttons etc */
-.colourtheme-1 {
+//Lavender theme used for buttons etc
+%colourtheme-1 {
   background-color: url($colourstyle-1);
   border-color: url($colourstyle-1-border-highlight) url($colourstyle-1-border-highlight) url($colourstyle-1-border-shadow) url($colourstyle-1-border-shadow);
 
@@ -12,8 +12,8 @@
   }
 }
 
-/* Grey MSDOS theme used for displaybox*/
-.colourtheme-2 {
+//Grey MSDOS theme used for displaybox
+%colourtheme-2 {
   background-color: url($colourstyle-2);
   border-color: url($colourstyle-1-border-highlight) url($colourstyle-2-border-highlight) url($colourstyle-2-border-shadow) url($colourstyle-2-border-shadow);
 }
