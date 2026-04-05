@@ -4,10 +4,11 @@ main
   color: url($dimgrey);
   height: 67vh;
   display: block;
-  /*padding: 20px, 0px;*/
+  //padding: 20px, 0px;
 
   span {
-    @extend %displaybox
+    @extend %displaybox;
+    height: 60vh;
   }
 }
   
@@ -23,25 +24,20 @@ background-color: blue;
 border: 3px solid green;
 
 }
-
-/*.main
-  {
-  min height: 60vh;
-  }*/
   
-/*Sidebar Rules*/
+//Sidebar Rules
 
 .sidebar
   {
     max-width: 200px;
-  /*flex-basis: 250px*/
-  /*width: 13vw;*/
+  //flex-basis: 250px
+  //width: 13vw;
   }
 
 .content
   {
   min-width: 460px;
-  /*min-width: 400px;*/
+  //min-width: 400px;
   flex: 1 1;
-  /*width: 48vw;*/
+  //width: 48vw;
   }

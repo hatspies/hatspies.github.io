@@ -3,28 +3,30 @@
 header {
   top: 0;
   height: 23vh;
-  color: url($dimgrey);
   //border-bottom: 20px solid #486cdb;
   border-width: 0 0 20px;
   min-height: 230px;
   align-content: flex-end;
   @extend %colourtheme-1;
-}
+  @extend .bordercolour-1;
 
-h1 {
-  font-size: 45px;
-  font-style: bold;
-  text-align: center;
-  max-width: 580px;
-}
-
-.splashcontainer {
-  justify-content: center;
-  align-items: center;
-  transform: rotate(-12deg) skew(-15.9deg) translatey(-4vh);
-  height: 70px;
-  max-width: 600px;
-  min-width: 0px;
-  margin:20px;
-  @extend %displaybox;
+  h1 {
+    font-size: 45px;
+    font-style: bold;
+    max-width: 580px;
+    @extend: centretext;
+  }
+  
+  .splashcontainer {
+    transform: rotate(-12deg) skew(-15.9deg) translatey(-4vh);
+    height: 70px;
+    max-width: 600px;
+    min-width: 0px;
+    margin:20px;
+    @extend %displaybox;
+    @extend %centrecontent-xy;
+    @extend %autowidth;
+    @extend %floatleft;
+    @extend %centrecontent-xy;
+  }
 }
