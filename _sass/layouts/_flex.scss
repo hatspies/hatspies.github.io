@@ -1,0 +1,9 @@
+%centrecontent-x {
+  display: flex;
+  justify-content: center;
+}
+
+%centrecontent-xy {
+  @extend %centrecontent-x;
+  align-items: center;
+}
