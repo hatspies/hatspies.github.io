@@ -1,39 +1,30 @@
-/*Header Rules*/
+//Header Rules
 
-header
-  {
+header {
   top: 0;
   height: 23vh;
-  /*background-color: green;*/
-  color: dimgrey;
-  /*border-bottom: 20px solid #486cdb;*/
+  color: url($dimgrey);
+  //border-bottom: 20px solid #486cdb;
   border-width: 0 0 20px;
   min-height: 230px;
   align-content: flex-end;
-  }
+  @extend %colourtheme-1;
+}
 
-h1
-  {
+h1 {
+  font-size: 45px;
   font-style: bold;
-  }
+  text-align: center;
+  max-width: 580px;
+}
 
-.splashcontainer
-  {
+.splashcontainer {
   justify-content: center;
   align-items: center;
   transform: rotate(-12deg) skew(-15.9deg) translatey(-4vh);
-  /*transform: rotate(-12deg) skew(-15.9deg) translatey(9vh) translatex(20px);*/
   height: 70px;
   max-width: 600px;
   min-width: 0px;
   margin:20px;
-  }
-
-.splashtext
-  {
-  text-align: center;
-  font-size: 45px;
-  /*padding-top: 5px;*/
-  /*transform: rotate(15.9deg) skew(15.9deg);*/
-  max-width: 580px;
-  }
+  @extend %displaybox;
+}
