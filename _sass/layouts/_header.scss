@@ -24,6 +24,9 @@ header {
     min-width: 0px;
     margin:20px;
     @extend %displaybox;
-    @extend &centrecontent-xy;
+    @extend %centrecontent-xy;
+    @extend %autowidth;
+    @extend %floatleft;
+    @extend %centrecontent-xy;
   }
 }
