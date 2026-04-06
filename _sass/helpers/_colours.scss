@@ -10,19 +10,19 @@ $soft-purple-skylight: #b5b5e5;
 $lavender: #e6e6fa;
 $darkblueslate: #483d8b;
 
-$colourstyle-1: url($darling-lavender-field);
-$colourstyle-1-emphasise: url($soft-purple-skylight);
-$colourstyle-1-border-highlight: url($lavender);
-$colourstyle-1-border-shadow: url($darkblueslate);
+$colourstyle-1: $darling-lavender-field;
+$colourstyle-1-emphasise: $soft-purple-skylight;
+$colourstyle-1-border-highlight: $lavender;
+$colourstyle-1-border-shadow: $darkblueslate;
 
 
-$colourstyle-2: url($kundalini-bliss);
+$colourstyle-2: $kundalini-bliss;
 
 /* Colour Style 2 - Used for displaybox */
 $lightgrey: #d3d3d3;
 $snow: #fffafa;
 $grey: #808080;
 
-$colourstyle-2: url($lightgrey);
-$colourstyle-2-border-highlight: url($snow);
-$colourstyle-2-border-shadow: url($grey);
+$colourstyle-2: $lightgrey;
+$colourstyle-2-border-highlight: $snow;
+$colourstyle-2-border-shadow: $grey;
