@@ -8,16 +8,16 @@
   @extend %colourtheme-1;
   
   &:hover {
-    background-color: url($colourstyle-1-emphasise);
+    background-color: $colourstyle-1-emphasise;
   }
 
   &:active {
-    border-color: url($colourstyle-1-border-shadow) url($colourstyle-1-border-shadow) url($colourstyle-1-border-highlight) url($colourstyle-1-border-highlight);
+    border-color: $colourstyle-1-border-shadow $colourstyle-1-border-shadow $colourstyle-1-border-highlight $colourstyle-1-border-highlight;
   }
 }
 
 //Grey MSDOS theme used for displaybox
 %colourtheme-2 {
-  background-color: url($colourstyle-2);
-  border-color: url($colourstyle-1-border-highlight) url($colourstyle-2-border-highlight) url($colourstyle-2-border-shadow) url($colourstyle-2-border-shadow);
+  background-color: $colourstyle-2;
+  border-color: $colourstyle-1-border-highlight $colourstyle-2-border-highlight $colourstyle-2-border-shadow $colourstyle-2-border-shadow;
 }
