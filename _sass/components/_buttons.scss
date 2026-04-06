@@ -1,5 +1,7 @@
 .button {
-  p {
+  @extend %centrecontent;
+  
+  a {
     @extend %blacktext;
     font-size: 2vh;
     font-weight: bold;
