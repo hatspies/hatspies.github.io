@@ -49,7 +49,7 @@ h3 {
   
 h2, h3, p {
   padding: 1rem;
-  @extend %blacktext;
+  @extend %text-black;
   /*background: rgba(0, 0, 255, .25);*/
   }
   
