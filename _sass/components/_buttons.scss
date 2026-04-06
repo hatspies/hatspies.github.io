@@ -1,3 +1,7 @@
+//%colourtheme-1 {
+  //background-color: $colourstyle-1;
+  //border-color: $colourstyle-1-border-highlight $colourstyle-1-border-highlight $colourstyle-1-border-shadow $colourstyle-1-border-shadow;
+
 .button {
   @extend %centrecontent-xy;
   
@@ -5,6 +9,10 @@
     @extend %text-black;
     font-size: 2vh;
     font-weight: bold;
+  }
+
+  .current {
+    @extend %colourtheme-1-active
   }
 }
 
@@ -15,9 +23,12 @@
   cursor: pointer;
   @extend %shadow-standard;
 
-  &:active
-  {
-    border-width: 2px 3px 1px 1px;
-    box-shadow: 0 0 0;
+  &:hover {
+    %colourtheme-1-hover
+  }
+
+  &:active {
+    %colourtheme-1-active
   }
 }
+  
