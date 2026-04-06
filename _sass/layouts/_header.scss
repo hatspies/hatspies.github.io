@@ -3,12 +3,11 @@
 header {
   top: 0;
   height: 23vh;
-  //border-bottom: 20px solid #486cdb;
   border-width: 0 0 20px;
   min-height: 230px;
   align-content: flex-end;
   @extend %colourtheme-1;
-  @extend .bordercolour-1;
+  @extend %header-footer-border;
 
   h1 {
     font-size: 45px;
@@ -22,7 +21,7 @@ header {
     height: 70px;
     max-width: 600px;
     min-width: 0px;
-    margin:20px;
+    @extend %margin-standard
     @extend %displaybox;
     @extend %centrecontent-xy;
     @extend %autowidth;
