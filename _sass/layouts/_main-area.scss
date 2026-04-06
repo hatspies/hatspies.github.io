@@ -30,6 +30,7 @@ border: 3px solid green;
 .sidebar
   {
     max-width: 200px;
+    background-color: blue;
   //flex-basis: 250px
   //width: 13vw;
   }
@@ -37,6 +38,7 @@ border: 3px solid green;
 .content
   {
   min-width: 460px;
+  background-color: red;
   //min-width: 400px;
   flex: 1 1;
   //width: 48vw;
