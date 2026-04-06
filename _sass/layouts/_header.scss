@@ -21,7 +21,7 @@ header {
     height: 70px;
     max-width: 600px;
     min-width: 0px;
-    @extend %margin-standard
+    @extend %margin-standard;
     @extend %displaybox;
     @extend %centrecontent-xy;
     @extend %autowidth;
