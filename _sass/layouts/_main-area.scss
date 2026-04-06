@@ -4,6 +4,13 @@ main
   color: url($dimgrey);
   height: 67vh;
   display: block;
+  padding: 20px, 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: blue;
+  border: 3px solid green;
   //padding: 20px, 0px;
 
   span {
@@ -12,7 +19,7 @@ main
   }
 }
   
-.maincontainer
+/*.maincontainer
 {
 height: auto;
 padding: 20px, 30px;
@@ -23,13 +30,14 @@ justify-content: space-between;
 background-color: blue;
 border: 3px solid green;
 
-}
+}*/
   
 //Sidebar Rules
 
 .sidebar
   {
     max-width: 200px;
+    background-color: blue;
   //flex-basis: 250px
   //width: 13vw;
   }
@@ -37,6 +45,7 @@ border: 3px solid green;
 .content
   {
   min-width: 460px;
+  background-color: red;
   //min-width: 400px;
   flex: 1 1;
   //width: 48vw;
