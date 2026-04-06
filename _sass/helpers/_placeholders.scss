@@ -48,6 +48,14 @@
   opacity:0.75;  
 }
 
+//Style
+
 %header-footer-border {
   border-color: $header-footer-border-colour;
 }
+
+%shadow-standard {
+    box-shadow: -4px 4px 3px;
+}
+
+
