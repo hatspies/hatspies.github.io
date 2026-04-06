@@ -4,6 +4,13 @@ main
   color: url($dimgrey);
   height: 67vh;
   display: block;
+  padding: 20px, 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: blue;
+  border: 3px solid green;
   //padding: 20px, 0px;
 
   span {
@@ -12,7 +19,7 @@ main
   }
 }
   
-.maincontainer
+/*.maincontainer
 {
 height: auto;
 padding: 20px, 30px;
@@ -23,7 +30,7 @@ justify-content: space-between;
 background-color: blue;
 border: 3px solid green;
 
-}
+}*/
   
 //Sidebar Rules
 
