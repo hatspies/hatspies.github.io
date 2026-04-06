@@ -1,9 +1,7 @@
-@import "colours";
-
 //Lavender theme used for buttons etc
 %colourtheme-1 {
-  background-color: url($colourstyle-1);
-  border-color: url($colourstyle-1-border-highlight) url($colourstyle-1-border-highlight) url($colourstyle-1-border-shadow) url($colourstyle-1-border-shadow);
+  background-color: $colourstyle-1;
+  border-color: $colourstyle-1-border-highlight $colourstyle-1-border-highlight $colourstyle-1-border-shadow $colourstyle-1-border-shadow;
 }
 
 %colourtheme-1-active {  
