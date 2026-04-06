@@ -1,37 +1,3 @@
-%centred
-  {
-  margin: 0 auto; 
-  } 
-
-%blend {
-  opacity:0.75;  
-}
-  
-%container {
-  height: 100%;
-  width: 100%;
-}
-
-%centretext {
-  text-align: center;
-}
-
-%floatleft {
-  float: left;
-}
-
-%floatright {
-  float: right;
-}
-
-%autowidth {
-  width: auto;
-}
-
-%blacktext {
-  color: black;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -46,8 +12,7 @@ html
   font-family: Tahoma;
   }
   
-body 
-  {
+body {
   min-height: 100vh;
   max-width: 125vh;
   /*max-width: 1800px; */
@@ -55,8 +20,8 @@ body
   margin: 0 auto;
   color: dimgrey;
   box-shadow: -4px 0 3px;
-  display: block;
-  }
+  //display: block;
+}
 
 .bordercolour-1
   {
