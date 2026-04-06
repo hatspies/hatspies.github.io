@@ -1,0 +1,61 @@
+//Sizing
+  
+%container {
+  height: 100%;
+  width: 100%;
+}
+
+%autowidth {
+  width: auto;
+}
+
+%margin-standard {
+  margin: 20px;
+}
+
+%padding-standard {
+  padding: 20px;
+}
+
+//Text
+
+%centretext {
+  text-align: center;
+}
+
+%text-black {
+  color: $black;
+}
+
+//Position
+
+%centred
+  {
+  margin: 0 auto; 
+  } 
+
+%floatleft {
+  float: left;
+}
+
+%floatright {
+  float: right;
+}
+
+//Colour
+
+%blend {
+  opacity:0.75;  
+}
+
+//Style
+
+%header-footer-border {
+  border-color: $header-footer-border-colour;
+}
+
+%shadow-standard {
+    box-shadow: -4px 4px 3px;
+}
+
+

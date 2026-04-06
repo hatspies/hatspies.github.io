@@ -2,7 +2,7 @@
   @extend %centrecontent-xy;
   
   a {
-    @extend %blacktext;
+    @extend %text-black;
     font-size: 2vh;
     font-weight: bold;
   }
@@ -12,8 +12,8 @@
 {
   border-width: 1px 1px 2px 3px;
   border-radius: 2vh;
-  box-shadow: -4px 4px 3px;
   cursor: pointer;
+  @extend %shadow-standard;
 
   &:active
   {

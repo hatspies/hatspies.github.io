@@ -1,7 +1,7 @@
 %displaybox 
   {
-    borderstyle: solid;
     border-width: 1px 1px 3px 5px;
-    box-shadow: -4px 4px 3px;
-    @extend %colourtheme-2
+    @extend %shadow-standard;
+    @extend %padding-standard;
+    @extend %colourtheme-2;
   }    
