@@ -24,11 +24,11 @@
   @extend %shadow-standard;
 
   &:hover {
-    %colourtheme-1-hover
+    @extend %colourtheme-1-hover
   }
 
   &:active {
-    %colourtheme-1-active
+    @extend %colourtheme-1-active
   }
 }
   
