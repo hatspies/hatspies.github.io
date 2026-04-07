@@ -44,6 +44,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+      - scope:
+      path: ""
+      type: "ships"
+    values:
+      layout: "ship"
   - scope:
       path: ""
       type: "posts"
