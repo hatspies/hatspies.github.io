@@ -7,8 +7,9 @@ title: Ships
 <ul>
   {% for ship in site.ships %}
   <li>
-    <img href="{{ ship.url }}">{{ ship.headerimage }}>
+    
     <h2><a href="{{ ship.url }}">{{ ship.name }}</a></h2>
+    <img href="{{ ship.headerimage }}">
     <h3>{{ ship.type }}</h3>
     <p>{{ ship.content | markdownify }}</p>
   </li>
