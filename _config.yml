@@ -33,6 +33,9 @@ github_username:  hatspies
 collections:
   authors:
     output: true
+  ships:
+    output: true
+
 
 # Front Matter Defaults
 defaults:
