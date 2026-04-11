@@ -1,22 +1,33 @@
 ---
 ---
 
-/* Main */
+// Main
 @import "main";
 
-/* Components */
-@import "components/buttons";
-@import "components/displaybox";
+// Base
+@use 'base';
 
-/* Helpers */
-@import "helpers/colours";
-@import "helpers/colourstyles";
-@import "helpers/placeholders";
+// Components
+@use 'components';
+//@import "components/buttons";
+//@import "components/displaybox";
 
-/* Layouts */
-@import "layouts/flex";
-@import "layouts/footer";
-@import "layouts/header";
-@import "layouts/main-area";
-@import "layouts/navigation";
+// Helpers
+@use 'helpers';
+//@import "helpers/colours";
+//@import "helpers/colourstyles";
+//@import "helpers/placeholders";
 
+// Layouts
+@use 'layouts';
+//@import "layouts/flex";
+//@import "layouts/footer";
+//@import "layouts/header";
+//@import "layouts/main-area";
+//@import "layouts/navigation";
+
+// Pages
+@use 'pages';
+
+// Themes
+@use 'themes';
